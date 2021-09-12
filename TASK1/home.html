@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HandGame</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="homeStyle.css">
+    <script src="home.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+    <p>Welcome to the Hand Game <span class="headerText"> Rock, Paper and Scissors</span></p>
+</div>
+
+<div  id="intro-image" style="display: block">
+
+
+    <img class="intro-image" id="introImage" src="documents/RockPaperScissors.png">
+   <div class="intro-radio">
+
+    <input  type="radio" id="1ply" name="Player" value="1">One Player<br>
+    <input  type="radio" id="1ply" name="Player" value="2">Two Player<br>
+
+   </div>
+    <button class="intro-button" onclick="myFunction()" >Start Game</button>
+        
+
+</div>
+
+
+<div  id="onePlayer" style="display: none">
+
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+        <img class="intro-image" src="documents/RockPaperScissors.png">
+        <div class="intro-radio">
+            <input  type="radio" id="rock" name="PlayerOption" value="1">Rock<br>
+            <input  type="radio" id="paper" name="PlayerOption" value="2">Paper<br>
+            <input  type="radio" id="scissors" name="PlayerOption" value="3">Scissors<br>
+        </div>
+        <button class="intro-button" onclick="myFunction()" >Start</button>
+
+
+    </div>
+    <div class="col-sm-5"></div>
+
+
+</div>
+
+<div class="footer">
+    <p>Copy Rights Reserved</p>
+</div>
+
+</body>
+
+</html>

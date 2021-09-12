@@ -1,0 +1,60 @@
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image:url("documents/header-background.png");
+
+    background-color: #cccccc;
+    margin: 2px;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image:url("documents/footer-background.jpg");
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+.headerText{
+    font-size: 30px;
+    color: red;
+}
+.body{
+
+}
+.intro-image{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.intro-button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.intro-button:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.intro-radio{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
