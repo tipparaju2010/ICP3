@@ -1,3 +1,10 @@
+body {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+}
+
 .header {
     position: fixed;
     left: 0;
@@ -8,35 +15,58 @@
     background-color: #cccccc;
     margin: 2px;
     text-align: center;
+    padding: 20px;
 }
 .footer {
     position: fixed;
-    left: 0;
     bottom: 0;
-    width: 100%;
     background-image:url("documents/footer-background.jpg");
-    background-color: #cccccc;
     color: white;
     text-align: center;
-    background-repeat: no-repeat;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 
 }
-.headerText{
-    font-size: 30px;
-    color: red;
+.img-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
 }
-.body{
-
+.img-container #introImage{
+    width: 600px;
 }
-.intro-image{
-
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+.gameImage {
+    height: 150px;
 }
+.img-button {
+    border: 0;
+    background: transparent;
+}
+
+
+
+/*.headerText{*/
+/*    font-size: 30px;*/
+/*    color: red;*/
+/*}*/
+/*.body{*/
+
+/*}*/
+/*.intro-image{*/
+
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*    width: 300px;*/
+
+/*}*/
 .intro-button{
     background-color: #4CAF50; /* Green */
+    margin-top: 10px;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -52,9 +82,27 @@
     background-color: #008CBA;
     color: white;
 }
-.intro-radio{
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.game-container  {
+    display: flex;
 }
+
+button:focus{
+    border: 1px solid #000;
+}
+/*.intro-radio{*/
+/*    text-align: center;*/
+/*    display: block;*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+/*.game{*/
+
+/*    text-align: center;*/
+/*    padding: 5px 5px;*/
+/*}*/
+/*.gameImage{*/
+/*    width: 100px;*/
+/*}*/
+/*.gameImage:hover{*/
+/*    box-shadow: 0 0 2px 2px rgba(0,140,186,0.5);*/
+/*}*/
